@@ -16,12 +16,12 @@ use-player-locale: true
 # Tree Chopping setting
 # The number of times non-VIP players can chop down trees per day,
 # you can give everyone "autotreechop.vip" permission to disable it.
-max-uses-per-day: 50
+max-uses-per-day: 10000
 # Tree blocks that non-VIP players can chop down every day,
 # you can give everyone "autotreechop.vip" permission to disable it.
-max-blocks-per-day: 500
+max-blocks-per-day: 100000
 # Cooldown time (second), use 0 to disable
-cooldownTime: 5
+cooldownTime: 2
 
 # VIP setting
 # If disable, VIP have unlimited usage
@@ -61,7 +61,7 @@ playBreakSound: true
 # This controls whether players can toggle AutoTreeChop by running "/atc" command
 enable-command-toggle: true
 # This controls whether players can toggle AutoTreeChop by sneaking (pressing shift)
-enable-sneak-toggle: false
+enable-sneak-toggle: true
 # Should plugin show a message when player is sneaking?
 sneak-message: false
 
